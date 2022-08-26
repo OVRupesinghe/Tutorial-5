@@ -18,7 +18,7 @@ object Q2 extends App{
     
   }
 
-  def printSeq(n:Int,i:Int){
+  def printSeq(n:Int,i:Int):Unit={
      if(n==i) {
         break
      }
